@@ -62,5 +62,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+        <key>NSAPPTransportSecurity</key>
+        <dict>
+            <key>NSAllowsArbritraryLoads</key><true/>
+        </dict>
+        <key>NSCameraUsageDescription</key>
+    <string>Parstagram requires access to your phone’s camera.</string>
 </dict>
 </plist>

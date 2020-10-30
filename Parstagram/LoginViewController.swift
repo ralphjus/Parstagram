@@ -16,12 +16,6 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         usernameField.becomeFirstResponder()
-        let parseConfig = ParseClientConfiguration {
-                $0.applicationId = "SeJBmfeALb0QOeArz4uRIrUDnoKHnA6t0XI76clF"
-                $0.clientKey = "ahIgEr2mGmklpGh1CksobxsPIRv5jXoUe8uIYyyq"
-                $0.server = "https://parseapi.back4app.com"
-        }
-        Parse.initialize(with: parseConfig)
         PFUser.registerSubclass()
 
         // Do any additional setup after loading the view.

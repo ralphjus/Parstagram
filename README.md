@@ -26,6 +26,7 @@ Here's a walkthrough of implemented user stories:
 <img src="https://github.com/ralphjus/Parstagram/blob/main/Parstagram/Assets.xcassets/Demo2.gif" width=250><br>
 
 GIFs created with [ezgif](https://ezgif.com/).
+
 ----------------------
 # Parstagram - Part I
 
